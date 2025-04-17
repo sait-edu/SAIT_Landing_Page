@@ -3,316 +3,350 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="https://placehold.co/15x15/191840/ffffff?text=SAIT" type="image/x-icon">
-    <title>SAIT - School of AI and Technology</title>
+    <link
+      rel="shortcut icon"
+      href="https://placehold.co/15x15/191840/ffffff?text=SAIT"
+      type="image/x-icon"
+    />
+    <title>SAIT - Build Your Web Dev Foundation!</title>
     <link rel="stylesheet" href="styles.css" />
-    <!-- Font Awesome for icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
   </head>
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="logo">
-        <!-- Logo placeholder -->
-        <img
-          src="https://placehold.co/150x60/191840/ffffff?text=SAIT"
-          alt="SAIT Logo"
-        />
-      </div>
-
-          <!-- Add this hamburger button code -->
-          <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              src="https://placehold.co/150x60/191840/ffffff?text=SAIT"
+              alt="SAIT Logo"
+          /></a>
+        </div>
+        <button
+          class="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
         </button>
-
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#courses">Courses</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <h1>Unlock Your Potential with SAIT</h1>
-        <p>The best place to learn Web Development and programming online</p>
-        <a href="#courses" class="btn primary-btn">Explore Courses</a>
-        <a href="https://wa.me/201044563577" class="btn secondary-btn">Contact Us</a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#courses">Learning Path</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#testimonials">Testimonials</a></li>
+          <li>
+            <a href="wdf-curriculum.html" class="nav-highlight"
+              >✨ WDF Camp ✨</a
+            >
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="hero-image">
-        <!-- Hero image placeholder -->
-        <img
-          src="https://placehold.co/600x400/191840/ffffff?text=Learning+at+SAIT"
-          alt="Learning at SAIT"
-        />
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- Features Section -->
-  <section id="courses" class="features">
-    <div class="container">
-      <h2 class="section-title">Our Featured Courses</h2>
-      <div class="features-container">
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fas fa-code"></i>
-          </div>
-          <h3>Web Development Fundamentals</h3>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Build a Rock-Solid Web Development Foundation</h1>
           <p>
-            Master HTML, CSS, and JavaScript with our comprehensive web
-            development Fundamentals courses.
+            Start your tech journey with the SAIT
+            <strong>Web Development Fundamentals (WDF) Camp</strong>! Master
+            HTML, CSS & JavaScript through <strong>130+ core topics</strong> in
+            6 weeks. Our engaging methods make learning effective and lay the
+            perfect groundwork for advanced skills. Build
+            <strong>8+ projects</strong> and top students can earn
+            <strong>internships or TA roles at SAIT</strong>. Your future starts
+            with strong fundamentals!
           </p>
+          <a href="wdf-curriculum.html" class="btn primary-btn"
+            >View WDF Curriculum</a
+          >
+          <a href="#courses" class="btn secondary-btn">See Learning Path</a>
         </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fa-regular fa-file-code"></i>
-          </div>
-          <h3>Front-end</h3>
-          <p>
-            Create responsive, interactive user interfaces with React, Next.js, and Tailwind through our expert-led front-end development courses.
-          </p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <i class="fa-solid fa-laptop-code"></i>
-          </div>
-          <h3>Back-end</h3>
-          <p>
-            Build powerful server-side applications using Node.js, Python, and databases with RESTful API integration for scalable web solutions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about">
-    <div class="container">
-      <!-- <div class="about-image">
-        <img
-          src="https://placehold.co/600x400/191840/ffffff?text=About+SAIT"
-          alt="About SAIT"
-        />
-      </div> -->
-      <div class="about-content">
-        <h2 class="section-title">About SAIT</h2>
-        <p>
-          The School of AI and Technology (SAIT) is dedicated to providing
-          high-quality education in the fields of programming, artificial
-          intelligence, and technology. Located in Alexandria, Egypt, our
-          institution has been at the forefront of technological education since
-          its inception.
-        </p>
-        <p>
-          Our mission is to empower students with the skills and knowledge
-          needed to succeed in the rapidly evolving tech industry. With a team
-          of experienced instructors led by Abdullah Mahmoud, we offer a
-          supportive learning environment that fosters creativity and
-          innovation.
-        </p>
-        <div class="stats-container">
-          <div class="stat">
-            <h3>500+</h3>
-            <p>Students</p>
-          </div>
-          <div class="stat">
-            <h3>20+</h3>
-            <p>Courses</p>
-          </div>
-          <div class="stat">
-            <h3>15+</h3>
-            <p>Instructors</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials">
-    <div class="container">
-      <h2 class="section-title">What Our Students Say</h2>
-      <div class="testimonials-container">
-        <div class="testimonial-card">
-          <div class="testimonial-image">
-            <!-- Testimonial image placeholder -->
-            <img
-              src="https://placehold.co/100x100/191840/ffffff?text=Belal"
-              alt="Belal"
-            />
-          </div>
-          <div class="testimonial-content">
-            <p>
-              "SAIT has transformed my career. The web development course
-              provided me with the skills I needed to land my dream job."
-            </p>
-            <h4>Belal</h4>
-            <p class="testimonial-position">Web Developer</p>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-image">
-            <!-- Testimonial image placeholder -->
-            <img
-              src="https://placehold.co/100x100/191840/ffffff?text=Hamza"
-              alt="Hamza"
-            />
-          </div>
-          <div class="testimonial-content">
-            <p>
-              "The instructors at SAIT are incredibly knowledgeable and
-              supportive. They go above and beyond to ensure every student
-              succeeds."
-            </p>
-            <h4>Hamza</h4>
-            <p class="testimonial-position">AI Engineer</p>
-          </div>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-image">
-            <!-- Testimonial image placeholder -->
-            <img
-              src="https://placehold.co/100x100/191840/ffffff?text=Yahya"
-              alt="Yahya"
-            />
-          </div>
-          <div class="testimonial-content">
-            <p>
-              "I had no prior programming experience, but SAIT's structured
-              curriculum made learning easy and enjoyable. Highly recommended!"
-            </p>
-            <h4>Yahya</h4>
-            <p class="testimonial-position">Mobile Developer</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action Section -->
-  <section class="cta">
-    <div class="container">
-      <h2>Ready to Start Your Journey?</h2>
-      <p>
-        Join SAIT today and take the first step towards a successful career in
-        technology.
-      </p>
-      <a  href="https://wa.me/201044563577" class="btn primary-btn">Enroll Now</a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <div class="contact-container">
-        <div class="contact-info">
-          <div class="info-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Sporting, Alexandria, Egypt</p>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-phone"></i>
-            <p>+201044563577</p>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-envelope"></i>
-            <p>sait.edu.eg@gmail.com</p>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-globe"></i>
-            <p>www.sait-edu.com</p>
-          </div>
-        <!-- </div>
-        <div class="contact-form">
-          <form>
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-              />
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Your Email"
-              />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Your Message"
-              ></textarea>
-            </div>
-            <button type="submit" class="btn primary-btn">Send Message</button>
-          </form>
-        </div> -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-
-    <a class="whatsapp-icon" href="https://wa.me/201044563577">
-      <i class="fa-brands fa-whatsapp" style="color: #25D366;font-size:48px"></i>
-        </a>
-
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">
-          <!-- Footer logo placeholder
+        <div class="hero-image">
           <img
-            src="https://placehold.co/200x60/191840/ffffff?text=SAIT"
-            alt="SAIT Logo"
-          /> -->
-          <h3>SAIT</h3>
-          <p>The best place to learn Web Development and programming online</p>
+            src="https://placehold.co/600x400/191840/ffffff?text=SAIT"
+            alt="Students building a strong foundation in web development at the SAIT WDF Camp"
+          />
         </div>
-        <!-- <div class="footer-links">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div> -->
-        <div class="footer-social">
-          <h3>Follow Us</h3>
-          <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </section>
+
+    <section id="courses" class="features">
+      <div class="container">
+        <h2 class="section-title">Your SAIT Learning Path</h2>
+        <div class="features-container">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+            <h3>Step 1: WDF Camp (Web Dev Fundamentals)</h3>
+            <p>
+              Begin with our flagship 6-week camp! Master HTML, CSS, and
+              JavaScript from scratch. Covering 130+ topics and 8+ projects,
+              it's the essential first step for aspiring web developers.
+              <br /><a
+                href="wdf-curriculum.html"
+                style="
+                  font-weight: bold;
+                  margin-top: 10px;
+                  display: inline-block;
+                "
+                >See Full Curriculum</a
+              >
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-regular fa-file-code"></i>
+            </div>
+            <h3>Step 2: Advanced Front-end Skills</h3>
+            <p>
+              After mastering the fundamentals, continue your journey by diving
+              into modern front-end frameworks like React & Next.js to build
+              interactive UIs. <em>(Advanced courses coming soon)</em>
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3>Step 3: Server-Side Development</h3>
+            <p>
+              Prepare for full-stack roles by exploring back-end technologies.
+              Learn to build powerful server-side applications with Node.js,
+              Python, and databases. <em>(Advanced courses coming soon)</em>
+            </p>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 School of AI and Technology. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2 class="section-title">
+            Why SAIT Works: Learn Smarter, Not Harder
+          </h2>
+          <p>
+            At SAIT, we don't just teach code; we engineer learning. Our
+            acclaimed
+            <strong>Web Development Fundamentals Camp</strong> is built on
+            proven, <strong>science-based learning principles</strong>. Forget
+            passive lectures – prepare for an engaging experience designed for
+            deep understanding and long-term retention. We're your gateway to
+            the tech industry, right here in Alexandria, Egypt.
+          </p>
+          <p>
+            Our mission is to empower you with essential skills through a unique
+            methodology. Led by Abdullah Mahmoud and instructors trained in
+            cutting-edge techniques, we utilize
+            <strong>interactive learning, gamification</strong> to keep you
+            motivated, <strong>active learning</strong> exercises that ensure
+            you're doing, not just watching, and
+            <strong>spaced repetition</strong> to solidify knowledge. This
+            supportive, dynamic environment fosters creativity and ensures you
+            truly master the material.
+          </p>
+
+          <p
+            class="stats-intro"
+            style="
+              text-align: center;
+              font-weight: 600;
+              margin-top: 2rem;
+              color: var(--primary-color);
+            "
+          >
+            Our WDF Camp by the Numbers:
+          </p>
+          <div class="stats-container">
+            <div class="stat">
+              <i
+                class="fas fa-book-open fa-2x"
+                style="color: var(--primary-color); margin-bottom: 0.5rem"
+              ></i>
+              <h3>130+</h3>
+              <p>WDF Topics</p>
+            </div>
+            <div class="stat">
+              <i
+                class="fas fa-laptop-code fa-2x"
+                style="color: var(--primary-color); margin-bottom: 0.5rem"
+              ></i>
+              <h3>8+</h3>
+              <p>WDF Projects</p>
+            </div>
+            <div class="stat">
+              <i
+                class="fas fa-award fa-2x"
+                style="color: var(--primary-color); margin-bottom: 0.5rem"
+              ></i>
+              <h3>Top</h3>
+              <p>Internships/TA Roles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Top WDF Students Say</h2>
+        <div class="testimonials-container">
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="https://placehold.co/100x100/191840/ffffff?text=Mariam"
+                alt="Mariam"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "The WDF Camp's interactive approach was fantastic! Building
+                projects step-by-step made everything clear. The instructors
+                really know how to explain complex ideas simply. It gave me the
+                confidence to continue learning."
+              </p>
+              <h4>Mariam</h4>
+              <p class="testimonial-position">
+                WDF Top Graduate - Teaching Assistant @ SAIT
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="https://placehold.co/100x100/191840/ffffff?text=Hamza"
+                alt="Hamza"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "I loved the learning methods! Spaced repetition helped me
+                remember so much, and the gamified elements kept me engaged. The
+                supportive environment made asking questions easy. It's the best
+                foundation I could ask for."
+              </p>
+              <h4>Hamza</h4>
+              <p class="testimonial-position">
+                WDF Top Graduate - Intern @ SAIT
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-image">
+              <img
+                src="https://placehold.co/100x100/191840/ffffff?text=Alaa"
+                alt="Alaa"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "Coming from zero coding background, I was amazed how much I
+                learned. The active learning exercises and science-based
+                teaching really work. Excelling here opened the door to a TA
+                position!"
+              </p>
+              <h4>Alaa</h4>
+              <p class="testimonial-position">
+                WDF Top Graduate - Teaching Assistant @ SAIT
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Build Your Foundation for a Web Dev Career!</h2>
+        <p>
+          Enroll in the SAIT WDF Camp today! Master 130+ fundamental topics and
+          build 8+ projects using our effective learning methods. Unlock
+          opportunities for internships and TA roles at SAIT for top performers.
+          Start building your future now.
+        </p>
+        <a
+          href="https://wa.me/201044563577"
+          target="_blank"
+          class="btn primary-btn"
+          >Enroll in WDF Camp Now</a
+        >
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Sporting, Alexandria, Egypt</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <p>+201044563577</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>sait.edu.eg@gmail.com</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-globe"></i>
+              <p>www.sait-edu.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a
+        class="whatsapp-icon"
+        href="https://wa.me/201044563577"
+        target="_blank"
+        aria-label="Chat on WhatsApp"
+      >
+        <i
+          class="fa-brands fa-whatsapp"
+          style="color: #25d366; font-size: 48px"
+        ></i>
+      </a>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>SAIT</h3>
+            <p>Your Launchpad into Web Development & Technology</p>
+          </div>
+          <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 School of AI and Technology. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
 </html>
