@@ -461,9 +461,7 @@ section {
 
 /* Call to Action Section */
 .cta {
-  background: linear-gradient(rgba(25, 24, 64, 0.9), rgba(25, 24, 64, 0.9)),
-    url("https://placehold.co/1920x400/cccccc/ffffff?text=Background+Image")
-      center center/cover no-repeat;
+  background-color:#181941;
   color: var(--secondary-color);
   text-align: center;
   padding: clamp(4rem, 10vw, 5rem) 1rem;
